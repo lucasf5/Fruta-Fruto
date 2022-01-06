@@ -1,0 +1,15 @@
+.navbar-cabecalho .ul-link-cabecalho{
+    display: flex;
+}
+.navbar-cabecalho .ul-link-cabecalho .lista-cabecalho{
+    margin:0 1rem;
+}
+
+.navbar-cabecalho .lista-cabecalho:first-child{
+    font-weight:700;
+}
+@media (max-width: 500px){
+    .navbar-cabecalho .ul-link-cabecalho{
+        align-items: center;
+    }
+}

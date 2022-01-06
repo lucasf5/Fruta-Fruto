@@ -1,0 +1,6 @@
+.navbar-cabecalho .ul-link-cabecalho .lista-cabecalho .link-cabecalho{
+    color: var(--preto-cor-links-cabecalho);
+}
+.navbar-cabecalho .ul-link-cabecalho .lista-cabecalho .link-cabecalho:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,31 @@
+
+header{
+    background: var(--branco-background-cabecalho);
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background: white;
+    width: 100vw;
+    padding-right: 2rem;
+    
+}
+
+@media (max-width: 500px){
+    .cabecalho{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .link-logo-cabecalho img{
+        display: none !important;
+    }
+    .navbar-cabecalho{
+        margin: 1rem auto;
+    }
+    .lista-cabecalho:nth-child(3){
+        text-align: center;
+    }
+}

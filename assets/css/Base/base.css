@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li, a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+:root{
+    --branco-background-cabecalho: #fff;
+    --preto-cor-links-cabecalho: rgb(0, 0, 0);
+    --vermelho-texto-banner: #8D0606;
+    --background-receitas: #e5e5e5
+}
+
+body::-webkit-scrollbar {
+     width: 10px
+} 
+   
+body::-webkit-scrollbar-thumb {   
+background-color: yellow;   
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #ffd382;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid orange;  /* creates padding around scroll thumb */
+}
+
+html{
+    scroll-behavior: smooth;
+}
