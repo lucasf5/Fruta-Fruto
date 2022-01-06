@@ -8,7 +8,7 @@
 }
 
 .banner__article{
-    background: url(/assets/img/pessoas/marcela.jpg) no-repeat;
+    background: url(../../img/imagens/banner.jpg) no-repeat;
     background-attachment:scroll;
     background-size: cover;
     background-attachment: fixed;
