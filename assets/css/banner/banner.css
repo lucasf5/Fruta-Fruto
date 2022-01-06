@@ -8,7 +8,7 @@
 }
 
 .banner__article{
-    background: url(../../img/imagens/banner.jpg) no-repeat;
+    background: url(../../../assets/img/imagens/banner.jpg) no-repeat;
     background-attachment:scroll;
     background-size: cover;
     background-attachment: fixed;
